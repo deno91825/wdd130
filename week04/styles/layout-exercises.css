@@ -23,17 +23,27 @@ div {
 
 .flex {
     background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
 
 }
 
 .grid {
     background-color: #abb;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     /* enter declarations here */
 
 }
 
 .container2 {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     /* write declarations here */
 
 }
