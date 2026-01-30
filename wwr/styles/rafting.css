@@ -1,14 +1,8 @@
 :root {
     --primary-color: #1F3B73;
-    /* deep blue */
-    --secondary-color: #FF6F3C;
-    /* vibrant orange */
     --accent1-color: #00BFA6;
-    /* bright teal */
-    --accent2-color: #FFD93D;
-    /* soft yellow */
-    --neutral-color: #2E2E2E;
-    /* dark charcoal */
+    --heading-font: "Times New Roman", Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
 
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -43,6 +37,25 @@ article {
     margin: 16px;
     padding: 8px;
 }
+header nav ul{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 70%;
+    display: flex;
+    
+}
+nav a{
+    text-decoration: none;
+
+}
+header{
+    border: 1px solid pink;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1200px  1fr;
+    align-items: center;
+}
 .socialmedia a {
     text-decoration: none;
 }
@@ -51,7 +64,7 @@ article {
     position: relative;
 }
 
-article, .hero h1{
+.hero article, .hero h1{
     position: absolute;
 }
 h1 {
