@@ -37,24 +37,31 @@ article {
     margin: 16px;
     padding: 8px;
 }
-header nav ul{
-    position: absolute;
-    top: 60px;
-    right: 30px;
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header nav ul {
     width: 70%;
     display: flex;
-    
-}
-nav a{
-    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
 }
-header{
-    border: 1px solid pink;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1200px  1fr;
-    align-items: center;
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #1F3B73;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    gap: clamp(1rem, 3vw, 2.5rem)
+
 }
 .socialmedia a {
     text-decoration: none;
@@ -111,4 +118,37 @@ h2{
     background-color: #1F3B73;
     color: white;
     text-align: center;
+}
+
+#history{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    }
+
+section h2{
+    grid-column: 1 / -1;
+    padding: 0.75rem 1.5rem;
+}
+
+#adventure{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-between;
+}
+
+#adventure img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+footer{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto 30%;
+    align-items: center;
+    justify-content: flex-end;
 }
