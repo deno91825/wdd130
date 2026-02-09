@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <meta name="author" content="Oweki Denis">
-    <meta name="description" content="Have questions about our rafting trips, safety, or bookings? Get in touch with us anytime. Use the contact form or reach out through our provided details, and our friendly team will respond promptly to help you plan an unforgettable rafting adventure.">
+    <meta name="description" content="Have questions about rafting trips, safety, or bookings? Contact our team today and plan your unforgettable rafting adventure.">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
@@ -36,11 +36,7 @@
         
                 <!-- Google Map -->
                 <div class="map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15956.432387798079!2d34.171656795800786!3d1.0810978391626953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sug!4v1770649522807!5m2!1sen!2sug"
-                      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15956.432387798079!2d34.171656795800786!3d1.0810978391626953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sug!4v1770649522807!5m2!1sen!2sug"></iframe>
                 </div>
         
                 <!-- Contact Form -->
@@ -61,17 +57,17 @@
         
                         <div class="labels">
                             <label>
-                                <input type="radio" name="purpose" value="general" required>
+                                <input type="radio" id="general" name="purpose" value="general" required>
                                 General Inquiry
                             </label>
             
                             <label>
-                                <input type="radio" name="purpose" value="reservation">
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
                                 Reservation Question
                             </label>
             
                             <label>
-                                <input type="radio" name="purpose" value="suggestion">
+                                <input type="radio" id="suggestion" name="purpose" value="suggestion">
                                 Website Suggestion
                             </label>
                         </div>
@@ -84,7 +80,7 @@
         
                     <div class="form-group checkbox">
                         <label>
-                            <input type="checkbox" name="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe">
                             Please subscribe me to the monthly newsletter
                         </label>
                     </div>

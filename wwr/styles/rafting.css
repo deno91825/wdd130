@@ -12,7 +12,7 @@ box-sizing: border-box;
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: rgb(31 59 115);
 }
 header,
 main,
@@ -52,7 +52,6 @@ header nav ul {
 
 }
 nav a {
-    text-decoration: none;
     font-weight: 500;
     color: #1F3B73;
     text-decoration: none;
@@ -68,10 +67,8 @@ nav a {
     position: relative;
 }
 
-.hero h1{
-    position: absolute;
-    z-index: 1;
-}
+
+
 .hero article{
     position: absolute;
 }
@@ -119,7 +116,6 @@ h2{
 }
 
 #history{
-    display: grid;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
